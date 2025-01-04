@@ -1,0 +1,796 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    backdrop-filter: blur(25px);
+    z-index: 1;
+    top: 0px;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.links strong {
+    color: white;
+    padding: 20px 20px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.links strong:hover {
+    color:rgb(7, 190, 171) ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.account {
+    position: absolute;
+    left: 75%;
+    top: 20px;
+}
+
+.account {
+    color: white;
+    font-size: 0.9rem;
+}
+
+span svg {
+    position: relative;
+    top: 7px;
+}
+
+.open {
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(7, 190, 171);
+    border: none;
+    color: white;
+    font-weight: small;
+    font-size: 1rem;
+}
+
+.open:hover {
+    background-color: rgb(6, 153, 138);
+}
+
+
+.login {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: black;
+    color:  rgb(11, 155, 141);
+    cursor: pointer;
+    border: 1px solid  rgb(11, 155, 141);
+    position: relative;
+    font-size: 1rem;
+    left: 10px;
+}
+
+
+
+.login:hover {
+    background-color: rgb(35, 73, 73);
+}
+
+main {
+    background: linear-gradient(to right, black, rgb(0, 17, 17), rgb(1, 47, 47));
+    height: 300PX;
+    display: flex;
+}
+
+.bonus {
+    margin: 50px;
+}
+
+main h1 {
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 5px 5px rgb(5, 125, 125);
+}
+
+button {
+    cursor: pointer;
+}
+
+main p {
+    margin-top: 30px;
+    color: gray;
+    font-weight: bold;
+}
+
+.bonus button {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 1rem;
+    background-color: black;
+    color:  rgb(11, 155, 141);
+    border: 1px solid  rgb(11, 155, 141);
+    cursor: pointer;
+}
+
+.bonus button:hover {
+    background-color: rgb(35, 73, 73);
+}
+
+.partner button {
+    margin: auto 10px;
+    margin-top: 20px;
+}
+
+.bonus .pro {
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(7, 190, 171);
+    color: white;
+    border: none;
+    font-weight: 1rem;
+}
+
+.bonus .pro:hover {
+    background-color: rgb(6, 153, 138);
+}
+
+main img {
+    position: relative;
+    left: 350px;
+    border-radius: 100%;
+    width: 250px;
+    height: 300px;
+}
+
+.deposit span {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5px;
+    position: relative;
+    left: 40%;
+}
+
+.deposit .depo {
+    color: rgb(7, 190, 171);
+}
+
+.deposit p {
+    color: gray;
+    text-align: center;
+}
+
+p {
+    color: gray;
+}
+
+section {
+    background-color: rgb(17, 17, 17);
+    height: 500px;
+    width: 100%;
+}
+
+.percent {
+    display: flex;
+    border: 1px solid gray;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+
+.claim {
+    margin: 30px;
+}
+
+.percent h1 {
+    font-size: 5rem;
+    color: rgb(7, 190, 171);
+}
+
+.percent span {
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.percent button {
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(18, 18, 18);
+    color: rgb(11, 155, 141);
+    border: 1px solid  rgb(11, 155, 141);
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.percent button:hover{
+    background-color: rgb(35, 73, 73);
+}
+
+video {
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+}
+
+
+.video {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, black, rgb(1, 28, 25), black);
+    display: flex;
+}
+
+.benefits {
+    margin-top: 250px;
+    width: 700px;
+}
+
+.benefits span {
+    color: white;
+}
+
+.benefits span {
+    position: relative;
+    bottom: 5px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.benefits p {
+    color: rgb(7, 190, 171);
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.get-bonus {
+    color: white;
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 500px;
+}
+
+.get-bonus h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sign h2 {
+    font-size: 6rem;
+    font-weight: bolder;
+    color: rgb(50, 48, 48);
+    margin: 7px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px rgb(46, 26, 26);
+}
+
+.get-bonus span {
+    color: rgb(7, 190, 171);
+}
+
+.claimers {
+    display: flex;
+    margin: 60px;
+}
+
+.sign {
+    border: 1px solid rgb(95, 83, 83);
+    width: 400px;
+    height: 270px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+
+.sign p {
+    font-size: 1.4rem;
+    color: rgb(7, 190, 171);
+    margin: 7px;
+    margin-left: 30px;
+}
+
+.sign .reg {
+    color: white;
+    font-size: 1rem;
+}
+
+.faqs {
+    background-color: rgb(13, 13, 13);
+    height: 300px;
+}
+
+.faqs h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(7, 190, 171);
+    padding-top: 70px;
+}
+
+
+.faqs button {
+    width: 600px;
+    position: relative;
+    left: 30px;
+    height: 75px;
+    background-color: rgb(21, 21, 21);
+    border-radius: 20px;
+    color: white;
+    margin-left: 30px;
+    border: 1px solid rgb(43, 42, 42);
+    text-align: left;
+    padding: 20px;
+    font-weight: 1.2rem;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.faqs button:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+.faqs svg {
+    position: absolute;
+    left: 90%;
+}
+
+.swap {
+    color: white;
+    display: flex;
+    height: 355px;
+    width: 100%;
+    /* background: linear-gradient(to right, black, rgb(0, 9, 9), black); */
+
+}
+
+.swap .trade {
+    text-align: right;
+}
+
+
+.swap .get {
+    background-color: rgb(11, 155, 141);
+    border: none;
+    color: white;
+}
+
+
+.swap .get:hover {
+    background-color: rgb(10, 104, 95);
+}
+
+.swap button {
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: black;
+    color:  rgb(11, 155, 141);
+    border: 1px solid  rgb(11, 155, 141);
+    cursor: pointer;
+    font-size: 1rem;
+    margin: auto 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    position: relative;
+    left: 10px;
+}
+
+.swap button:hover {
+    background-color: rgb(35, 73, 73);
+
+}
+
+.swap h1{
+    font-weight: lighter;
+    font-size: 2.2rem;
+}
+
+nav.scrolled{
+    background-color: rgb(79, 74, 74);
+    transition: ease-in-out 5s;
+    color: black;
+}
+
+.trade{
+    margin: 50px;
+}
+
+.free-swap{
+    margin-top: 30px;
+}
+
+.response{
+    display: flex;
+}
+
+.iux{
+    display: flex;
+}
+
+
+.iux img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+
+.iux h1{
+    position: relative;
+    top: 25px;
+    color: white;
+}
+
+.dropdown{
+    display: none;
+}
+
+.contacts svg{
+    width: 15px;
+    height: 15px;
+    fill: rgb(11, 155, 141);
+    border: 1px solid rgb(11, 155, 141);
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    left: 950px;
+    top: 30px;
+    margin: 2px;
+}
+
+footer p{
+    font-size: 0.8rem;
+    padding: 30px;
+}
+
+footer{
+    background-color: rgb(40, 39, 39);
+}
+
+
+#toggle-on, #toggle-off{
+    display: none;
+}
+
+
+
+
+@media (max-width: 992px) {
+    nav {
+        position: sticky;
+        top: 0;
+        bottom: 0;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .account, main img, .account, .claim, .links{
+        display: none;
+    }
+
+    nav, main, section{
+        width: 100%;
+    }
+
+    .bonus h1{
+        font-size: 2rem;
+        text-shadow: none
+    }
+
+
+
+    body{
+        width: auto;
+    }
+
+    main {
+        background: linear-gradient(to right, black, rgb(0, 17, 17), rgb(1, 26, 26));
+        height: 300PX;
+        display: flex;
+        width: 100%;
+    }
+
+    .deposit span{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .claimers{
+        display: flex;
+        flex-direction: column;
+        margin: 35px;
+    }
+
+    .sign h2{
+        text-shadow: none;
+    }
+
+    .get-bonus{
+        height: 1100px;
+    }
+
+    .benefits {
+        position: relative;
+        left: 30px;
+        bottom: 270px;
+    }
+
+    .benefits p{
+        font-size: 1.5rem;
+        text-shadow: none
+    }
+
+    .benefits .depo{
+        font-size: 1.5rem;
+    }
+
+    .get-bonus h1{
+        font-size: 1.5rem;
+        text-shadow: none
+    }
+
+    .dr
+
+    .partner button{
+        width: 650px;
+        margin: auto 5px;
+        margin-top: 30px;
+        font-size: 0.9rem;
+    }
+
+    h1{
+        text-shadow: none;
+    }
+
+
+    .sign{
+        width: 250px;
+    }
+
+    .faqs h1{
+        padding-bottom: 70px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .faqs button{
+        width: 230px;
+        height: 60px;
+        position: relative;
+        bottom: 100px;
+        right: 40px;
+        font-size: 0.9rem;
+    }
+
+    .faqs{
+        position: relative;
+        height: 300px;
+        padding-right: 50px;
+    }
+
+
+    .deposit{
+        position: relative;
+        top: 100px;
+    }
+
+
+    section{
+        height: 300px;
+    }
+
+    .deposit span{
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 5px;
+        position: relative;
+        left: 95px;
+        width: 100%;
+    }
+
+    .percent{
+        display: none;
+    }
+    
+
+    .video{
+        height: 550px;
+    }
+
+    video{
+        height: 300px;
+        width: 300px;
+    }
+
+    .video span{
+        font-size: 0.9rem;
+        margin-top: 50px;
+    }
+
+    .trade{
+        position: relative;
+        bottom: 20px;
+    }
+
+    .trade h1{
+        font-size: 1rem;
+    }
+
+    .trade p{
+        font-size: 0.7rem;
+    }
+
+    .trade button{
+        width: 110px;
+        font-size: 0.8rem;
+    }
+
+    .response{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts svg{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        fill: rgb(11, 155, 141);
+        border: 1px solid rgb(11, 155, 141);
+        border-radius: 100%;
+        cursor: pointer;
+        padding: 5px;
+        left: 50px;
+        top: 30px;
+        margin: 2px;
+    }
+
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 300vh;
+        border-radius: 10px;
+        display: none;
+        position: absolute;
+        transition: ease-in-out 2s linear;
+        position: fixed;
+    }
+
+
+    .dropdown button{
+        width: 95px;
+        font-size: 0.8rem;
+        margin: 30px;
+    }
+
+    .dropdown span{
+        color: white;
+        margin-left: 30px;
+    }
+
+    .dropdown strong{
+        padding-top: 15px;
+        padding-left: 50px;
+        color: white;
+        display: flex;
+        cursor: pointer;
+        transition: ease-in-out 2s linear;
+
+    }
+
+    #toggle-on, #toggle-off{
+        position: relative;
+        left: 150px;
+        top: 30px;
+        cursor: pointer;
+        transition: ease-in-out 2s linear;
+        display: block;
+        background-color: rgb(26, 25, 25);
+        border-radius: 5px;
+    }
+
+
+
+    #toggle-off{
+        display: none;
+        position: relative;
+        top: 30px;
+        z-index: 2;
+    }
+    
+    .swap {
+        display: block;
+    }
+
+    .free-swap img{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+@media (max-width: 416px) {
+    .partner button{
+        width: 70px;
+        margin: auto 5px;
+        margin-top: 30px;
+        font-size: 0.9rem;
+    }
+
+    .trade button{
+        width: 100px;
+        font-size: 0.8rem;
+        height: 30px;
+    }
+}
+
+
+
+@media (max-width: 324px) {
+    .partner button{
+        width: 60px;
+        height: 30px;
+        margin: auto 5px;
+        margin-top: 30px;
+        font-size: 0.9rem;
+        position: relative
+        ; bottom: 20px;
+    }
+
+    .bonus p{
+        font-size: 1rem;
+    }
+
+    
+}
